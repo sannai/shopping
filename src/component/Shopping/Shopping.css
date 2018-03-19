@@ -1,0 +1,36 @@
+.top{
+    display: flex;
+    width: 900px;
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    margin: 0 auto;
+}
+.W200{
+    width: 400px;
+}
+.W90{
+    width: 100px;
+}
+.checkbox{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.content{
+    width: 900px;
+    margin: 0 auto;
+}
+.bottom{
+    width: 900px;
+    text-align: right;
+    margin-top: 30px;
+}
+.W50{
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.delete{
+    width: 100px;
+    cursor: pointer;
+}

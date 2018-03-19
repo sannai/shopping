@@ -1,0 +1,74 @@
+.Paint{
+    width: 600px;
+    height: 200px;
+    border: 1px solid;
+    margin: 0 auto ;
+    border-radius: 5px;
+}
+.top{
+    width: 600px;
+    height: 150px;
+    border-bottom: 1px solid;
+    margin: 0 auto;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 50px;
+}
+.BotLeft{
+    display: flex;
+    width: 300px;
+    -moz-box-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    width: 40px;
+}
+.htoDjs{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #ccc;
+    cursor: pointer;
+}
+.dnqmqq{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #ccc;
+    cursor: pointer;
+}
+.iwsKbI{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #ccc;
+    cursor: pointer;
+}
+.BotRifgt{
+    width: 300px;
+    display: flex;
+    -moz-box-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.color{
+    width: 25px;
+    height: 25px;
+    background: black;
+}
+.colorTrumpet{
+    display: flex;
+    width: 168px;
+    flex-wrap: wrap;
+}
+.aggregate{
+    width: 18px;
+    height: 18px;
+    background: black;
+    margin-right: 5px;
+    margin-top: 5px;
+}

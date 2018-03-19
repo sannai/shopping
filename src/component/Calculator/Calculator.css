@@ -1,0 +1,34 @@
+.Calculator{
+    display: flex;
+    width: 600px;
+    margin: 50px auto;
+}
+.Calculation{
+    width: 50px;
+    height: 34px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid lightgreen;
+}
+.number{
+    width: 50px;
+    height: 30px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.etc{
+    width: 50px;
+    height: 34px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+}
+.Select{
+    width: 50px;
+    height: 30px;
+    
+    text-align: center;
+}
