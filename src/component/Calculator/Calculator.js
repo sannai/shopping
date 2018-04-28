@@ -69,10 +69,15 @@ class Calculator extends Component {
 }
 
 function mapStateToProps(state) {
-    return { ...state }
+    return {
+        one:state.one,
+        two:state.two,
+        sum:state.sum
+    }
 }
 
 function mapDispatchToProps(dispatch) {
+    console.log(dispatch)
     return bindActionCreators(actions, dispatch)
 }
 

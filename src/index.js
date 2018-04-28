@@ -68,6 +68,7 @@ const store = createStore(reducer, {
     one:5,//第一
     two:10,//第二
     sum:undefined,//和
+    home:[]
 }, enhancer)
 
 sagaMiddleware.run(saga)

@@ -1,0 +1,68 @@
+.container{
+    width: 300px;
+    margin: 50px auto;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    width: 2100px;
+    height: 100%;
+    /* opacity: 1; */
+    position: absolute;
+    z-index: 0;
+    transition: all 0.5s
+}
+
+.buttonPrev{
+    position: absolute;
+    top: 40%;
+    font-size: 50px;
+    color: aqua;
+}
+
+.onePosition{   
+    left: -300px;
+    transition: all 0.5s
+}
+.twoPosition{
+    left: -600px;
+    transition: all 0.5s
+}
+.therePosition{
+    left: -900px;
+    transition: all 0.5s
+}
+.fourPosition{
+    left: -1200px;
+    transition: all 0.5s
+}
+.fivePosition{
+    left: -1500px; 
+    transition: all 0.5s  
+}
+.sixPosition{
+    left: -1800px; 
+    transition: all 0.5s
+}
+.buttonNext{
+    position: absolute;
+    top: 40%;
+    font-size: 50px;
+    color: aqua;
+    right: 1%;
+}
+.Instructions{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+.circular{
+  background-color: aqua;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;  
+  margin-left: 5px;
+}

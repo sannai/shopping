@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    width: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+.home{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.position{
+    position: absolute;
+    position: absolute;
+    left: 100px;
+    top: -38px;
+    display: flex;
+    
+}
+.name{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rebeccapurple;
+    text-align: center;
+}

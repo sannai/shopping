@@ -23,3 +23,10 @@ export const modifyTwo = (num) => {
         num
     }
 }
+
+export const controlRouter = (data) => {
+    return {
+        type:'CONTROLROUTER',
+        data
+    }
+}

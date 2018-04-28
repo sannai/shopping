@@ -253,9 +253,6 @@ class Shopping extends Component {
                     <div>
                         总价格￥{this.state.selectPrice}
                     </div>
-                    <div>
-                        redux{console.log(this.props.shopping)}
-                    </div>
                 </div>
             </div>
         );

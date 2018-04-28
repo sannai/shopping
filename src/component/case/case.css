@@ -1,0 +1,36 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+    width: 940px;
+    height: 500px;
+    background-color: lightgrey;
+    justify-content: center; 
+    align-items:center;
+}
+
+
+
+.item1 {
+    flex: 1;
+    background-color: #ccc;
+    
+}
+.item2 {
+    -webkit-flex: 1;
+    flex: 10;
+    display: flex;
+    background-color: red;
+    
+}
+.item3{
+    flex: 3;
+    height: 300px;
+    background-color: blue;
+    justify-content: center; 
+    align-items:center;
+}
+.item3{
+    flex: 2;
+    background-color: blue;
+}
+
